@@ -1,29 +1,17 @@
-# Welcome to your Lovable project
+# Sherlock Holes
 
-This project was built with [Lovable](https://lovable.dev).
+HackRice 2026 team project. An AI-powered learning app built on the Feynman Technique: instead of being fed answers, you become the teacher and the AI becomes the student.
 
-## Build with Lovable
+## What it does
+- Teach Sherlock: explain your notes out loud in a 1-5 minute session with live transcription (or type instead)
+- Live grading: Sherlock's expression shifts neutral/green/yellow/red as you teach, and it asks real-time questions when it spots gaps in your understanding
+- Mid-session Q&A with follow-ups that branch on how well you answer
+- Feedback report: covered concepts, open questions, knowledge gaps, speaking time, and per-topic timing
+- Learn from Sherlock: chat explanations of your gap topics with spoken playback (ElevenLabs)
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## Tech
+TanStack Start, TypeScript, React, Tailwind CSS, Supabase (Drizzle ORM), ElevenLabs voice. Project scaffolded and iterated with Lovable.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+## Run it
+npm install
 npm run dev
-```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
